@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MHike</string>
+    <string name="user_email">email</string>
+    <string name="user_name">name</string>
+    <string name="user_entry_form">form</string>
+    <string name="add_user">add</string>
+    <string name="user_remark">remark</string>
+    <string name="welcome_message">welcome</string>
+    <string name="add_user_item">add user</string>
+    <string name="show_user_list">show user</string>
+    <string name="search_user">search user</string>
+    <string name="hike_entry_form">Add Hike Details</string>
+    <string name="hike_name">Eg: Mandalay Hill</string>
+    <string name="hike_location">Eg: Mandalay</string>
+    <string name="hike_length">Eg: 3km</string>
+    <string name="hike_description">Eg: blah blah</string>
+    <string name="hike_trail_condition">Eg: muddy</string>
+    <string name="hike_recommended_gear">Eg: hiking boots, rain jacket, etc</string>
+    <string name="hike_emmergency_contact">Eg: 09222111</string>select_hike
+    <string name="select_hike">Select Hike</string>
+
+    <string name="add_hike">Submit</string>
+
+
+
+</resources>

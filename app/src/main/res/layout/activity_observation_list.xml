@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".ActivityObservationList">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/addObservationBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Add"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="@id/observationListView"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/observationListView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:divider="@null"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/addObservationBtn" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/addIconButton"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="36dp"-->
+<!--        android:src="@drawable/outline_more_vert_24"-->
+<!--        android:contentDescription="Icon Button"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:background="@null"/>-->
+<!--    -->
+<!--    -->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:padding="8dp">
+    <TextView
+        android:id="@+id/spinnerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select hike"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        android:id="@+id/listSpinnerHike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:prompt="@string/select_hike" />
+
+<ListView
+    android:id="@+id/observationListView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:divider="@null"/>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/observationAdd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="16dp"
+    android:src="@drawable/add_white"
+    app:backgroundTint="@color/purple_500"
+    app:elevation="8dp"
+    app:tint="@color/white"
+    app:maxImageSize="68dp"/>
+
+</LinearLayout>
+
+
+

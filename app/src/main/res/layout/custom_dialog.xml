@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/confirmData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Are you sure you want to add these data?"/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Hike Name: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Hike Location: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Hike Date: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeParking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Parking Available: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Hike Length: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Level of Difficulty: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Hike Description: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeTrailConditions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Trail Conditions: "/>
+
+    <TextView
+        android:id="@+id/confirmTextHikeRecommendedGears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Hike Date: "/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/confirmTextHikeEmmergencyContact"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hike Date: "/>-->
+
+
+    <!-- Add more TextViews for other information -->
+
+</LinearLayout>

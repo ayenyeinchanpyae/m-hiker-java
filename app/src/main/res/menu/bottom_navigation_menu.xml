@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_observation"
+        android:icon="@drawable/visibility"
+        android:title="Observation" />
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/map"
+        android:title="Map" />
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/settings"
+        android:title="Profile" />
+</menu>
